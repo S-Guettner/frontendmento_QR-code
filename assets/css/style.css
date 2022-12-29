@@ -1,0 +1,46 @@
+/* ==========
+colors
+========== */
+/* ==========
+font
+========== */
+@font-face {
+  font-family: "outfit";
+  src: url(../fonts/Outfit/Outfit-VariableFont_wght.ttf);
+}
+/* ==========
+font-size paragraph
+========== */
+/* The designs were created to the following widths:
+- Mobile: 375px
+- Desktop: 1440px
+ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(212deg, 45%, 89%);
+}
+
+section {
+  background-color: aqua;
+  width: 85vw;
+  height: 60vh;
+  margin: auto;
+  margin-top: 20vh;
+  padding-top: 1.7vh;
+  border-radius: 15px;
+}
+section img {
+  width: 75vw;
+  height: 60%;
+  border-radius: 15px;
+  margin: auto;
+}
+
+section {
+  background-color: hsl(0deg, 0%, 100%);
+}/*# sourceMappingURL=style.css.map */

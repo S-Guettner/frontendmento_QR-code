@@ -37,6 +37,7 @@ body {
   margin: auto;
   padding: 0.9rem;
   border-radius: 15px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
 }
 .card img {
   max-width: 100%;

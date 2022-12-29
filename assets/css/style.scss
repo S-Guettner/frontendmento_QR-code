@@ -38,24 +38,34 @@ body{
     background-color: $gray;
 }
 
-section{
-    background-color: aqua;
-    width: 85vw;
-    height: 60vh;
+.container{
+    height: 100vh;
+    display: flex;
+}
+
+.card{
+    background-color: white;
+    max-width: 20rem;
+    height: 30rem;
     margin: auto;
-    margin-top: 20vh;
-    padding-top: 1.7vh;
+    padding: 0.9rem;
     border-radius: 15px;
 
 
-
         img{
-            width: 75vw;
-            height: 60%;
+            max-width: 100%;
             border-radius: 15px;
-            margin: auto;
+            margin-bottom: 1rem;
         }
 }
-section{
-    background-color: $white;
+
+.text{
+    text-align: center;
+    font-family: "outfit";
+    h2{
+        margin-bottom: 1rem;
+    }
+    p{
+        font-size: 15px;
+    }
 }
